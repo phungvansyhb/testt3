@@ -7,7 +7,15 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-
+  transpilePackages: [
+    'rc-util',
+    '@ant-design',
+    'kitchen-flow-editor',
+    '@ant-design/pro-editor',
+    'zustand', 'leva', 'antd',
+    'rc-pagination',
+    'rc-picker','rc-tree','rc-table'
+  ],
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
    *

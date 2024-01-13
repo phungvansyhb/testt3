@@ -1,6 +1,6 @@
 import Head from 'next/head';
-export default function AllProducts() {
 
+function AllProducts() {
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
             <Head>
@@ -14,3 +14,4 @@ export default function AllProducts() {
         </div>
     )
 }
+export default AllProducts

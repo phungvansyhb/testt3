@@ -1,3 +1,4 @@
+import { Button } from "antd";
 import Head from "next/head";
 
 function ContactPage() {
@@ -13,6 +14,7 @@ function ContactPage() {
                 <meta property="og:locale" content="vi_VN" />
             </Head>
            lien he cty
+           <Button>Allo</Button>
         </div>
     )
 }
